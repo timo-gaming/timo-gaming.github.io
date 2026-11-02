@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mistwater: Idle Fishing</title>
+<meta name="description" content="Mistwater is a calm idle fishing game for Android: grow a fishing village and catch 580 real fish in 57 countries.">
+<link rel="icon" href="img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=Spectral:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f4efe6;--ink:#1d2a30;--muted:#5a6a70;--card:#fffdf8;--line:#e2d9ca;--cta:#e9a948;--ctaInk:#2a1d08;--deep:#16313a}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121c21;--ink:#ece6da;--muted:#9fb0b6;--card:#1a262c;--line:#2a3a42;--deep:#0c171c}}
+  :root[data-theme="dark"]{--bg:#121c21;--ink:#ece6da;--muted:#9fb0b6;--card:#1a262c;--line:#2a3a42;--deep:#0c171c}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,sans-serif;line-height:1.55}
+  a{color:inherit}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px}
+  .hero{background:var(--deep)}
+  .hero img{display:block;width:100%;max-width:1024px;margin:0 auto;height:auto}
+  .intro{text-align:center;padding:36px 0 8px}
+  h1{font-family:Spectral,Georgia,serif;font-weight:600;font-size:clamp(32px,6vw,48px);margin:0 0 8px;line-height:1.1}
+  .lead{font-size:clamp(17px,2.4vw,20px);color:var(--muted);max-width:620px;margin:0 auto 24px}
+  .btn{display:inline-block;background:var(--cta);color:var(--ctaInk);font-weight:700;text-decoration:none;padding:14px 26px;border-radius:14px;font-size:17px}
+  .note{font-size:14px;color:var(--muted);margin-top:10px}
+  .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:40px 0}
+  .shots img{width:100%;height:auto;border-radius:18px;display:block;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+  .feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:0 0 44px}
+  .feat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+  .feat b{display:block;font-size:17px;margin-bottom:4px}
+  .feat span{color:var(--muted);font-size:15px}
+  footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:15px;text-align:center}
+  footer a{margin:0 10px}
+  @media (max-width:600px){.shots{grid-template-columns:1fr 1fr}.shots img:nth-child(3){display:none}}
+</style>
+</head>
+<body>
+<div class="hero"><img src="img/hero.jpg" alt="Mistwater: a fishing village at sunset" width="1024" height="500"></div>
+<main class="wrap">
+  <section class="intro">
+    <h1>Mistwater: Idle Fishing</h1>
+    <p class="lead">A calm idle fishing game. Your boats fish while you're away, and you go out yourself to catch the rare ones: 580 real fish in 57 countries.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.timo.mistwater">Get it on Google Play</a>
+    <p class="note">Free on Android, with optional ads and in-app purchases.</p>
+  </section>
+  <div class="shots">
+    <img src="img/village.jpg" alt="Your fishing village" width="540" height="960" loading="lazy">
+    <img src="img/reel.jpg" alt="Reeling in a fish in the rain" width="540" height="960" loading="lazy">
+    <img src="img/journal.jpg" alt="The fish journal" width="540" height="960" loading="lazy">
+  </div>
+  <div class="feats">
+    <div class="feat"><b>Grow a fishing village</b><span>Boats, a smokehouse, a boatyard and more, earning even while the game is closed.</span></div>
+    <div class="feat"><b>Catch them yourself</b><span>Strike on the bite and reel when the marker is in the zone. Every fish is weighed.</span></div>
+    <div class="feat"><b>Real weather and seasons</b><span>Each spot follows its real weather, and day turns to night with your clock.</span></div>
+    <div class="feat"><b>Collect 580 real fish</b><span>A journal page with a real fact for every species, from 285 fishing spots.</span></div>
+  </div>
+</main>
+<footer class="wrap">
+  <a href="privacy-policy.html">Privacy policy</a>
+  <a href="mailto:alexandru.timoce@gmail.com">Contact</a>
+  <p>Mistwater is made by one independent developer. Google Play is a trademark of Google LLC.</p>
+</footer>
+</body>
+</html>
